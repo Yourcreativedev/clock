@@ -19,10 +19,11 @@ body
     justify-content: space-between;
     border: none;
     border-radius: 8px;
+    box-shadow: inset 8px 8px 5px #c1c1c1,inset -8px -8px 5px #c1c1c1;
 }
 h1{
     text-align: center;
-    font-size: 110px;
+    font-size: 100px;
     font-family: 'Montserrat', sans-serif;
 }
 .block{
@@ -46,27 +47,38 @@ h1{
     color: #3DBE29;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 1300px) {
+    h1 {
+      font-size: 110px;
+    }
+  }
+@media only screen and (max-width: 850px) {
+    .container
+    {
+        width: 80vw;
+    }
     h1 {
       font-size: 90px;
     }
   }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 550px) {
+    .container
+    {
+        width: 80vw;
+    }
     h1 {
-      font-size: 70px;
+      font-size: 75px;
+      margin-left: -10px;
     }
   }
-
-@media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 400px) {
     .container
     {
         width: 85vw;
     }
     h1 {
-      font-size: 50px;
-    }
-    .block{
-        height: 10vh;
-        margin-right: 10px;
+      font-size: 60px;
+      margin-top: 2vh;
+      margin-left: -10px;
     }
   }
