@@ -5,7 +5,7 @@
 }
 body
 {
-    background:linear-gradient(to left, #00BC40, #4C3AE3);
+    background:linear-gradient(to right, #df3829 ,#b61848);
 }
 .container
 {
@@ -19,37 +19,36 @@ body
     justify-content: space-between;
     border: none;
     border-radius: 8px;
-    box-shadow: inset 9px 9px 6px #b3b0b0,inset -9px -9px 6px #b3b0b0;
+    box-shadow: inset 9px 9px 6px #e29292,inset -9px -9px 6px #e29292;
 }
 h1{
     text-align: center;
     font-size: 100px;
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 11px 11px 6px #b3b0b0;
+    text-shadow: 9px 9px 11px #976161;
 }
 .block{
     height: 20vh;
     width: 15vw;
-    padding: 10px;
     border-radius: 11px;
 }
 #hour
 {
-    color: #120E43;
+    color: #df3829;
 }
 
 #minute
 {
-    color: #5A20CB;
+    color: #E6425E;
 }
 
 #second
 {
-    color: #3DBE29;
+    color: #b61848;
 }
 .dots
 {
-    color: #E21717;
+    color: #E6425E;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -63,27 +62,28 @@ h1{
         width: 80vw;
     }
     h1 {
-      font-size: 90px;
+      font-size: 80px;
     }
   }
 @media only screen and (max-width: 550px) {
     .container
     {
-        width: 80vw;
+        width: 88vw;
     }
     h1 {
-      font-size: 75px;
+        margin-top: 4vh;
+      font-size: 60px;
       margin-left: -10px;
     }
   }
   @media only screen and (max-width: 400px) {
     .container
     {
-        width: 85vw;
+        width: 88vw;
     }
     h1 {
-      font-size: 60px;
-      margin-top: 2vh;
+      font-size: 50px;
+      margin-top: 4vh;
       margin-left: -10px;
     }
   }

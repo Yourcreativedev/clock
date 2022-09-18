@@ -7,7 +7,7 @@ function timer()
     let second = date.getSeconds()
     if(hour<10)
     {
-        document.getElementById("hour").innerHTML = "0"+date.getHours()
+        document.getElementById("hour").innerHTML = "0"+date.getHours() + " "
     }
     else
     {
