@@ -19,12 +19,13 @@ body
     justify-content: space-between;
     border: none;
     border-radius: 8px;
-    box-shadow: inset 8px 8px 5px #c1c1c1,inset -8px -8px 5px #c1c1c1;
+    box-shadow: inset 9px 9px 6px #b3b0b0,inset -9px -9px 6px #b3b0b0;
 }
 h1{
     text-align: center;
     font-size: 100px;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 11px 11px 6px #b3b0b0;
 }
 .block{
     height: 20vh;
@@ -45,6 +46,10 @@ h1{
 #second
 {
     color: #3DBE29;
+}
+.dots
+{
+    color: #E21717;
 }
 
 @media only screen and (min-width: 1300px) {
